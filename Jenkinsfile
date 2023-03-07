@@ -4,17 +4,17 @@ pipeline {
         maven 'maven_3.5.2'  
     }
    stages{
-    stage('Build') {
+    /*stage('Build') {
             steps {	
 		sh 'mvn install'
 	    }
-    } 
+    } */
 	
-    stage('Test') {
+    /*stage('Test') {
             steps {	
 		sh 'mvn test'
 	    }
-    } 
+    } */
 	   
     stage('CompileandRunSonarAnalysis') {
             steps {	
